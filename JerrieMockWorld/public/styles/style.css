@@ -664,7 +664,7 @@ header#worlds_birth {
   z-index: 400;
   background-image: url("../images/jerrie-logo.png");
   background-size: 200px auto;
-  background-position: 35px 25px;
+  background-position: 45px 30px;
   background-repeat: no-repeat; }
 
 #home-button-hidden, #outro-button-hidden {
@@ -714,7 +714,7 @@ header#worlds_birth {
   width: 7993px;
   height: 980px;
   background: #eee;
-  background: url("../images/map-bg10.jpg");
+  background: url("../images/map-bg-f.jpg");
   background-size: 100% 100%;
   background-position: 0 0;
   z-index: 10; }
