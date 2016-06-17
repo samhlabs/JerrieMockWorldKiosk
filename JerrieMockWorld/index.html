@@ -404,12 +404,12 @@
             }
 
             // If theres no activity, do something
-            var activityTimeout = setTimeout(inActive, 95000);
+            var activityTimeout = setTimeout(inActive, 3*60*1000);
 
             function resetActive(){
                 //$(document.body).attr('class', 'active');
                 clearTimeout(activityTimeout);
-                activityTimeout = setTimeout(inActive, 95000);
+                activityTimeout = setTimeout(inActive, 3*60*1000);
             }
 
             // No activity do something.
